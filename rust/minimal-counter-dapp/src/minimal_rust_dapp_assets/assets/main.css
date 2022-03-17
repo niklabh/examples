@@ -20,10 +20,9 @@ form {
     align-items: baseline;
 }
 
-button[type="submit"] {
+button {
     padding: 5px 20px;
     margin: 10px auto;
-    float: right;
 }
 
 #greeting {
@@ -34,4 +33,8 @@ button[type="submit"] {
 
 #greeting:empty {
     display: none;
+}
+
+section {
+    text-align: center;
 }
