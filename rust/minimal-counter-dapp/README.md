@@ -24,8 +24,9 @@ The example project requires the following installed:
 - git
 - Node.js
 - dfx
+- rust
 
-Git and Node can be installed from various package managers. `dfx` can be installed following the instructions [here](https://smartcontracts.org/docs/quickstart/local-quickstart.html#download-and-install).
+Git and Node can be installed from various package managers. `dfx` can be installed following the instructions [here](https://smartcontracts.org/docs/quickstart/local-quickstart.html#download-and-install). Rust can be installed following the instructions [here](https://smartcontracts.org/docs/rust-guide/rust-quickstart.html#before-you-begin).
 
 ### Install
 Install the example dapp project:
