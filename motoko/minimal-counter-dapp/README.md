@@ -196,7 +196,12 @@ $ dfx canister id minimal_dapp
 rrkah-fqaaa-aaaaa-aaaaq-cai
 ```
 
-**http://<candid_canister_id>.localhost:8000/?id=<backend_canister_id>**
+Go to: **http://<candid_canister_id>.localhost:8000/?id=<backend_canister_id>**
+
+```bash
+$ echo "http://$(dfx canister id __Candid_UI).localhost:8000/?id=$(dfx canister id persistent_storage)"
+http://r7inp-6aaaa-aaaaa-aaabq-cai.localhost:8000/?id=rrkah-fqaaa-aaaaa-aaaaq-cai
+```
 
 ![Candid UI](README_images/candid_ui.png)
 
